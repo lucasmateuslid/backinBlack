@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.75em;
+
+  background: #000 ;
+}
+
+
+header{
+  margin: 0px auto;
+  max-width: 1200px;
+  max-height: 196px;
+
+  align-items: center;
+  text-align: center;
+
+  background: #fff;
+}
+
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
