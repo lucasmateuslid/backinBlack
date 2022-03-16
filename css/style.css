@@ -4,19 +4,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 0.75em;
 
-  background: #000 ;
-}
-
-
-header{
-  margin: 0px auto;
-  max-width: 1200px;
-  max-height: 196px;
-
-  align-items: center;
-  text-align: center;
-
-  background: #fff;
+  background: #fff ;
 }
 
 li{
