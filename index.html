@@ -5,33 +5,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Black Store</title>
-  <!-- Normalize CSS & Bootstrap-->
+  <!-- Normalize CSS -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-
   <!-- Style CSS -->
   <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
   <header class="container">
-    <section id="header_top" class="row">
-          <section class="col header_acs header_optAccount">
-            <div class="header_cart">
-              Carrinho
-            </div>
-            <div class="account_user">
-              Minha Conta
-            </div>
-          </section>
-          <div class="col header_acs logo_image">
-            <img src="../images/logo/black.svg" alt="black">
-          </div>
-
-          <div class="col header_acs header_search">
-            <input type="search" name="header_searchTool" id="header_searchTool" placeholder="Palavras Chave">
-          </div>
-    </section>
+    <div class="header_top_content">
+      <div class="header_top_account item1">
+        <div class="assets_top_account">
+          <img src="" alt="">
+          <p>carrinho</p>
+        </div>
+        <div class="assets_top_account">
+          <img src="" alt="">
+          <p>Minha Conta</p>
+        </div>
+      </div>
+      <div class="header_top_search item3">
+        <input type="search" name="search_tool" id="search_tool" placeholder="Palavra Chave">
+      </div>
+      <div class="header_top_logo item2">
+        <img src="../images/logo/black.svg" alt="">
+      </div>
+    </div>
 
     <nav>
       <ul>
@@ -57,9 +56,9 @@
 
 
   <footer>
-    <section class="footer_logo">
+    <div class="footer_logo">
 
-    </section>
+    </div>
     <div class="footer_nav">
       <ul>
         <li>
@@ -74,7 +73,7 @@
       </ul>
     </div>
 
-    <section class="info_columns">
+    <div class="info_columns">
       <div>
         <h2>
           Conheça-nos
@@ -139,7 +138,7 @@
           <li>Boleto Bancario</li>
         </ul>
       </div>
-    </section>
+    </div>
   </footer>
 </body>
 </html>
