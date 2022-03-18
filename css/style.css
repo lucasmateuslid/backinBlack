@@ -16,18 +16,61 @@ a{
 
 @media only screen and (min-width: 1200px){
   header{
-    padding: 2rem;
-    padding-bottom: 0 ;
+    margin: 0;
+    display: ;
     background: #000;
   }
 
   .header_top_content{
+    padding-top: 1.45rem;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    text-align: center;
   }
+  /** Box Choice Account **/
+      .header_top_account{
+        background: #fff;
+        padding: 0.55em 2em;
+
+      }
+      .header_top_account .assets_top{
+        display: inline-block;
+      }
+      .marginn{
+        margin-left: 0.75em;
+      }
+      .assets_top{
+        max-width: 8.22em;
+      }
+      .assets_top img{
+        width: 1.75em;
+      }
+      .assets_top a, p{
+        display: inline;
+        color: #000;
+      }
+      .assets_top a{
+        display: flex;
+      }
+      .assets_top a:hover{
+        opacity: calc(78%);
+      }
+  /** Box Choice Account **/
+  /** Search Tool **/
+      #search_tool{
+        background: #fff url(../images/icons/search.svg) no-repeat;
+        background-position: 19em;
+        background-size: 1.75em;
+
+        height: 3em;
+        width: 22em;
+
+        border: none;
+        padding: 2em;
+      }
+
+  /** Search Tool **/
   .item1, .item2, .item3{
     margin-left: 15%;
   }
@@ -41,20 +84,46 @@ a{
     order: 3;
   }
   .header_top_account{
-    background: white;
+
+
   }
   .assets_top_account{
-    display: inline-block;
-    margin:0 1.55em;
-    padding: 0;
 
-    text-align: center;
-    
+
   }
   .header_top_logo img{
     width: 20em;
   }
-}
+
+  /** Nav Bar **/
+      nav{
+
+        text-align: center;
+        padding: 0.25em;
+        padding-bottom: 1.15em;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li{
+        text-align: center;
+        margin: 1.4em 2.25em;
+      }
+
+      nav ul li a{
+        text-transform: uppercase;
+        color: #fff;
+      }
+
+      nav ul li a:hover{
+        color: #969696;
+        text-decoration: underline;
+      }
+
+
+    }
 
 @media only screen and (max-width: 320px) {
   body{
