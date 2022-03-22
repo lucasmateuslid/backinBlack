@@ -37,9 +37,7 @@ a{
       .header_top_account .assets_top{
         display: inline-block;
       }
-      .marginn{
-        margin-left: 0.75em;
-      }
+
       .assets_top{
         max-width: 8.22em;
       }
@@ -72,7 +70,7 @@ a{
 
   /** Search Tool **/
   .item1, .item2, .item3{
-    margin-left: 15%;
+    margin: 0 2%;
   }
   .item1{
     order: 1;
@@ -97,19 +95,18 @@ a{
 
   /** Nav Bar **/
       nav{
-
-        text-align: center;
-        padding: 0.25em;
-        padding-bottom: 1.15em;
+        max-width: 1920px;
+        width: 100%;
+        padding: 2em 0;
+        display: block;
+        background-color: rgb(239, 0, 0);
       }
       nav ul {
-        display: flex;
-        justify-content: center;
+        
       }
 
       nav ul li{
-        text-align: center;
-        margin: 1.4em 2.25em;
+
       }
 
       nav ul li a{
@@ -144,17 +141,9 @@ a{
 
     .header_top_logo img{
       max-width: 10em;
+      width: 100;
       display: block;
     }
-
-    /** Nav **/
-      nav{
-        text-align: center;
-      }
-      nav ul li{
-        display: inline-block;
-        margin: 0.12em 0.20em;
-      }
 
 
 }
