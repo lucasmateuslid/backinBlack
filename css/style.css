@@ -5,6 +5,8 @@ body{
   font-size: 0.75em;
 
   background: #fff ;
+
+  max-height: 2300px;
 }
 
 li{
@@ -125,7 +127,49 @@ a{
     text-decoration: underline;
     opacity: calc(70%);
   }
-/** Header Top Finish **/
+/** Header Finish **/
+/** Main **/
+  main{
+    height: 1440px;
+  }
+/** Main Finish **/
+/** Footer **/
+  footer{
+    background: #000;
+    height: 1000%;
+  }
+  /** Information Container **/
+  .information{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  .container_information{
+    padding: 5em;
+    text-align: center;
+  }
+  .inform-text{
+    display: inline;
+    font-family: 'Rock Salt', cursive;
+    font-size: calc(170%);
+    font-weight: 500;
+
+    color: #f67c5b;
+
+    margin-bottom: -20px;
+
+  }
+  .inform-text h2{
+
+  }
+  .inform-log{
+    margin-top: 0;
+    display: inline;
+  }
+  .inform-log img{
+    width: calc(10%);
+  }
 
 
 }
