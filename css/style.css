@@ -15,135 +15,117 @@ a{
 }
 
 @media only screen and (min-width: 1200px){
-  header{
-    margin: 0;
-
-    background: #000;
-  }
-
-  .header_top_content{
-    padding-top: 1.45rem;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  /** Box Choice Account **/
-      .header_top_account{
-        background: #fff;
-        padding: 0.55em 2em;
-
-      }
-      .header_top_account .assets_top{
-        display: inline-block;
-      }
-
-      .assets_top{
-        max-width: 8.22em;
-      }
-      .assets_top img{
-        width: 1.75em;
-      }
-      .assets_top a, p{
-        display: inline;
-        color: #000;
-      }
-      .assets_top a{
-        display: flex;
-      }
-      .assets_top a:hover{
-        opacity: calc(78%);
-      }
-  /** Box Choice Account **/
-  /** Search Tool **/
-      #search_tool{
-        background: #fff url(../images/icons/search.svg) no-repeat;
-        background-position: 19em;
-        background-size: 1.75em;
-
-        height: 3em;
-        width: 22em;
-
-        border: none;
-        padding: 2em;
-      }
-
-  /** Search Tool **/
-  .item1, .item2, .item3{
-    margin: 0 2%;
-  }
-  .item1{
-    order: 1;
-  }
-  .item2{
-    order: 2;
-  }
-  .item3{
-    order: 3;
-  }
-  .header_top_account{
-
-
-  }
-  .assets_top_account{
-
-
-  }
-  .header_top_logo img{
-    width: 20em;
-  }
-
-  /** Nav Bar **/
-      nav{
-        max-width: 1920px;
-        width: 100%;
-        padding: 2em 0;
-        display: block;
-        background-color: rgb(239, 0, 0);
-      }
-      nav ul {
-        
-      }
-
-      nav ul li{
-
-      }
-
-      nav ul li a{
-        text-transform: uppercase;
-        color: #fff;
-      }
-
-      nav ul li a:hover{
-        color: #969696;
-        text-decoration: underline;
-      }
-
-
-    }
-
-@media only screen and (max-width: 320px) {
-  body{
-    width: 320px;
-  }
-
   /** Header **/
-    .container{
-      background-color: black;
+    header{
+      background-color: #000;
     }
-    .header_top_content{
+    .header_container{
+      max-width: 1440px;
+      margin: 0 auto;
       display: flex;
       justify-content: center;
     }
-    .assets_top_account, .header_top_search{
-      display: none;
+    .header_tops_container{
+      margin: 2em 5.5em;
     }
+    /** Image Logo **/
 
-    .header_top_logo img{
-      max-width: 10em;
-      width: 100;
-      display: block;
+      .header_logo_container img{
+        max-width: 16em;
+        width: 90%;
+      }
+      .header_logo_container img:hover{
+        opacity: calc(70%);
+      }
+
+    /** Search Tool Input **/
+    .container_search_input{
+      max-width: 17em;
+      width: 100%;
     }
+    .container_search_input input{
+      background: #fff url(../images/icons/search.svg) no-repeat;
+      background-position: 100% ;
+      background-size: calc(12%);
+
+
+      width: 18em;
+      padding: 1.2em 0;
+      padding-left: 2%;
+
+      border-radius: 3px;
+      border: none;
+    }
+    /** Container User **/
+      .cart_user_container{
+        background-color: #fff;
+
+        max-width: 17em;
+        width: 100%;
+
+        padding: 0.75em;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+      }
+      .assets_top{
+        margin: 0 0.45em;
+
+      }
+      .assets_top img{
+        max-width: 2em;
+        width: 100%;
+        float: left;
+      }
+      .assets_top span{
+        margin-left: 0.25em;
+        margin-top: 0.5em;
+        text-align: center;
+        display: inline-block;
+
+      }
+      .assets_top a{
+        color: #000;
+        font-weight: 400;
+      }
+      .assets_top a:hover, .assets_top img:hover  {
+        color: rgb(40, 40, 40);
+        text-decoration: underline;
+        cursor: pointer;
+      }
+  /** NavBar **/
+  nav{
+
+    text-align: center;
+  }
+  nav ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0px;
+
+    margin: 0;
+    padding: 1.25em;
+
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    margin: 0 2em;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+
+    font-weight: 700;
+  }
+
+  nav ul li a:hover{
+    text-decoration: underline;
+    opacity: calc(70%);
+  }
+/** Header Top Finish **/
 
 
 }
